@@ -682,10 +682,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 1d6217c3-e5e4-4996-b36e-7a2033516783
+  cloudProjectId: 0e35deda-5ceb-414d-8843-0c4e7278fc05
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Tutorials
+  projectName: SnowCowboyShooter1
   organizationId: lmswhpdmcummveqdg9
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PointPickup : MonoBehaviour
 {
-       public int pointValue = 10;
+    public int pointValue = 10;
 
     void OnTriggerEnter2D(Collider2D collision)
     {

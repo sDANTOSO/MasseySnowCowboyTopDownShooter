@@ -28,7 +28,7 @@ public class PlayerScript1 : MonoBehaviour
 
         moveDirection = moveDirection.normalized;
 
-        transform.position += moveDirection * moveSpeed * Time.deltaTime;
+        //transform.position += moveDirection * moveSpeed * Time.deltaTime;
 
 
         if (moveDirection != Vector3.zero)

@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 4b385c3766308c64b837cf0d41ca8427
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3196832993018032083
+    second: SnakeAnimation_0
+  - first:
+      213: 8582367767595266070
+    second: SnakeAnimation_1
+  - first:
+      213: -1557199066658195812
+    second: SnakeAnimation_2
+  - first:
+      213: -5271188712159078942
+    second: SnakeAnimation_3
+  - first:
+      213: 157398668142489639
+    second: SnakeAnimation_4
+  - first:
+      213: 3477925971866844379
+    second: SnakeAnimation_5
+  - first:
+      213: -8900135364411405552
+    second: SnakeAnimation_6
+  - first:
+      213: 4957765543338000164
+    second: SnakeAnimation_7
+  - first:
+      213: -1237752777097483697
+    second: SnakeAnimation_8
+  - first:
+      213: -6745946856467303505
+    second: SnakeAnimation_9
+  - first:
+      213: 3924229013136007589
+    second: SnakeAnimation_10
+  - first:
+      213: -1602051533620607454
+    second: SnakeAnimation_11
+  - first:
+      213: -5418478760121407883
+    second: SnakeAnimation_12
+  - first:
+      213: 4842630422897453295
+    second: SnakeAnimation_13
+  - first:
+      213: 4004452337650194745
+    second: SnakeAnimation_14
+  - first:
+      213: 2315848401172438623
+    second: SnakeAnimation_15
+  - first:
+      213: 258822447145336182
+    second: SnakeAnimation_16
+  - first:
+      213: -5903678024579016951
+    second: SnakeAnimation_17
+  - first:
+      213: -6178686022310506895
+    second: SnakeAnimation_18
+  - first:
+      213: -3795080006267524721
+    second: SnakeAnimation_19
+  - first:
+      213: -1746866058490220082
+    second: SnakeAnimation_20
+  - first:
+      213: 8259409532405072977
+    second: SnakeAnimation_21
+  - first:
+      213: 178741443883164334
+    second: SnakeAnimation_22
+  - first:
+      213: 5580074078937334358
+    second: SnakeAnimation_23
+  - first:
+      213: 4436960446519978866
+    second: SnakeAnimation_24
+  - first:
+      213: 2746498259674738134
+    second: SnakeAnimation_25
+  - first:
+      213: 4202966925417846492
+    second: SnakeAnimation_26
+  - first:
+      213: -1304358701532960070
+    second: SnakeAnimation_27
+  - first:
+      213: 6779214598728122639
+    second: SnakeAnimation_28
+  - first:
+      213: 3124238663959889276
+    second: SnakeAnimation_29
+  - first:
+      213: 6433469433785408651
+    second: SnakeAnimation_30
+  - first:
+      213: 7478777759131387651
+    second: SnakeAnimation_31
+  - first:
+      213: -679431026799677225
+    second: SnakeAnimation_32
+  - first:
+      213: -6820657842942426922
+    second: SnakeAnimation_33
+  - first:
+      213: -8730336145246547347
+    second: SnakeAnimation_34
+  - first:
+      213: 5122787457360713389
+    second: SnakeAnimation_35
+  - first:
+      213: -7555242552346094775
+    second: SnakeAnimation_36
+  - first:
+      213: -1875865016715178983
+    second: SnakeAnimation_37
+  - first:
+      213: 5819925847064140387
+    second: SnakeAnimation_38
+  - first:
+      213: 4058123883663851949
+    second: SnakeAnimation_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SnakeAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2059e4945192a3d0800000000000000
+      internalID: -3196832993018032083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61037476302ba1770800000000000000
+      internalID: 8582367767595266070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96b44303b7b36ae0800000000000000
+      internalID: -1557199066658195812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 42
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e595b35bc9f8d6b0800000000000000
+      internalID: -5271188712159078942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720b0c631413f2200800000000000000
+      internalID: 157398668142489639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 44
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc7a3c9e33144030800000000000000
+      internalID: 3477925971866844379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 42
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bcd5f7a0e5c7480800000000000000
+      internalID: -8900135364411405552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f355a8e758dc440800000000000000
+      internalID: 4957765543338000164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 50
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ae959386e92dee0800000000000000
+      internalID: -1237752777097483697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 38
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa37a9a53159162a0800000000000000
+      internalID: -6745946856467303505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 36
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1e049fe79a57630800000000000000
+      internalID: 3924229013136007589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 35
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2268ca24e9e54c9e0800000000000000
+      internalID: -1602051533620607454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 34
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576e6f7a642bdc4b0800000000000000
+      internalID: -5418478760121407883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 33
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe86d4756ba743340800000000000000
+      internalID: 4842630422897453295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 32
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9395f914f2ca29730800000000000000
+      internalID: 4004452337650194745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 31
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e1a89d9db832020800000000000000
+      internalID: 2315848401172438623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 28
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dbef5f4a5879300800000000000000
+      internalID: 258822447145336182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 26
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90710bc9d1ce11ea0800000000000000
+      internalID: -5903678024579016951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 24
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ec28d7cc5e04aa0800000000000000
+      internalID: -6178686022310506895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 22
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89ac3c67da255bc0800000000000000
+      internalID: -3795080006267524721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 22
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1f0893392e1c7e0800000000000000
+      internalID: -1746866058490220082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 24
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154ca71a5315f9270800000000000000
+      internalID: 8259409532405072977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 26
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2eb4d65640b7200800000000000000
+      internalID: 178741443883164334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 28
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652cc6f6fc7607d40800000000000000
+      internalID: 5580074078937334358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_24
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 31
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b2841a400439d30800000000000000
+      internalID: 4436960446519978866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_25
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 32
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd24289d958d1620800000000000000
+      internalID: 2746498259674738134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_26
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 33
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd61f308620f35a30800000000000000
+      internalID: 4202966925417846492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_27
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 34
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba2077fbacf5ede0800000000000000
+      internalID: -1304358701532960070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_28
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 35
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01055d72cb941e50800000000000000
+      internalID: 6779214598728122639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_29
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 36
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75cede03868b5b20800000000000000
+      internalID: 3124238663959889276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_30
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 38
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cdc123d56484950800000000000000
+      internalID: 6433469433785408651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_31
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 44
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3074e176fb4f9c760800000000000000
+      internalID: 7478777759131387651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_32
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 42
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0f936b41d2296f0800000000000000
+      internalID: -679431026799677225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_33
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d04fe844d72851a0800000000000000
+      internalID: -6820657842942426922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_34
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 50
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6293dcf78d97d680800000000000000
+      internalID: -8730336145246547347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_35
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6dfcffc0cc71740800000000000000
+      internalID: 5122787457360713389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_36
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 42
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943de739de2662790800000000000000
+      internalID: -7555242552346094775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_37
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c0c10c4b697f5e0800000000000000
+      internalID: -1875865016715178983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_38
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a5f5df8b784c050800000000000000
+      internalID: 5819925847064140387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAnimation_39
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 44
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1005cdb2a515830800000000000000
+      internalID: 4058123883663851949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SnakeAnimation_0: -3196832993018032083
+      SnakeAnimation_1: 8582367767595266070
+      SnakeAnimation_10: 3924229013136007589
+      SnakeAnimation_11: -1602051533620607454
+      SnakeAnimation_12: -5418478760121407883
+      SnakeAnimation_13: 4842630422897453295
+      SnakeAnimation_14: 4004452337650194745
+      SnakeAnimation_15: 2315848401172438623
+      SnakeAnimation_16: 258822447145336182
+      SnakeAnimation_17: -5903678024579016951
+      SnakeAnimation_18: -6178686022310506895
+      SnakeAnimation_19: -3795080006267524721
+      SnakeAnimation_2: -1557199066658195812
+      SnakeAnimation_20: -1746866058490220082
+      SnakeAnimation_21: 8259409532405072977
+      SnakeAnimation_22: 178741443883164334
+      SnakeAnimation_23: 5580074078937334358
+      SnakeAnimation_24: 4436960446519978866
+      SnakeAnimation_25: 2746498259674738134
+      SnakeAnimation_26: 4202966925417846492
+      SnakeAnimation_27: -1304358701532960070
+      SnakeAnimation_28: 6779214598728122639
+      SnakeAnimation_29: 3124238663959889276
+      SnakeAnimation_3: -5271188712159078942
+      SnakeAnimation_30: 6433469433785408651
+      SnakeAnimation_31: 7478777759131387651
+      SnakeAnimation_32: -679431026799677225
+      SnakeAnimation_33: -6820657842942426922
+      SnakeAnimation_34: -8730336145246547347
+      SnakeAnimation_35: 5122787457360713389
+      SnakeAnimation_36: -7555242552346094775
+      SnakeAnimation_37: -1875865016715178983
+      SnakeAnimation_38: 5819925847064140387
+      SnakeAnimation_39: 4058123883663851949
+      SnakeAnimation_4: 157398668142489639
+      SnakeAnimation_5: 3477925971866844379
+      SnakeAnimation_6: -8900135364411405552
+      SnakeAnimation_7: 4957765543338000164
+      SnakeAnimation_8: -1237752777097483697
+      SnakeAnimation_9: -6745946856467303505
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

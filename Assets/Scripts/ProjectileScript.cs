@@ -5,6 +5,8 @@ public class Projectile : MonoBehaviour
 
     public float speed = 8f;
     public float lifetime = 2f;
+
+    public float damage = 1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Vector3 moveDirection;
 
@@ -15,9 +17,17 @@ public class Projectile : MonoBehaviour
 
     
 
-    void Start()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject, lifetime);
+        print("Collided with " + collision.gameObject.name);
+        Damageable damageable = collision.gameObject.GetComponent<Damageable>();
+
+         if (damageable != null)
+        {
+        damageable.TakeDamage(damage);
+        }
+
+        Destroy(gameObject);
     }
 
     // Update is called once per frame

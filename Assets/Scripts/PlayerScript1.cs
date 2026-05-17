@@ -42,13 +42,13 @@ public class PlayerScript1 : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
         }
         //  Fire projectile when space key is pressed
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+       // if (Input.GetKeyDown(KeyCode.Space))
+       // {
           
-                Instantiate(projectilePrefab, firePointR.position, transform.rotation);
-                Instantiate(projectilePrefab, firePointL.position, transform.rotation);
-            
+           //     Instantiate(projectilePrefab, firePointR.position, transform.rotation);
+             //   Instantiate(projectilePrefab, firePointL.position, transform.rotation);
+        //    
            
-        }
+        //}
     }
 }

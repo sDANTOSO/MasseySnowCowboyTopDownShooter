@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Damageable : MonoBehaviour
 {
-    public float maxHealth = 3f;
+    public float maxHealth = 10f;
     public float currentHealth;
 
     void Start()

@@ -206,13 +206,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323193631}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0, z: 0.7055209, w: -0.7086891}
-  m_LocalPosition: {x: -0.26080438, y: -0.24540512, z: -0.9}
-  m_LocalScale: {x: 0.15382254, y: 0.16389, z: 1.3999726}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9999986, w: 0.0016523303}
+  m_LocalPosition: {x: 9.71, y: 0.2599995, z: -1}
+  m_LocalScale: {x: 1.1549773, y: 1.3999722, z: 1.3999726}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 997420663}
-  m_Father: {fileID: 1811573285}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.811}
 --- !u!61 &323193634
 BoxCollider2D:
@@ -347,6 +347,8 @@ GameObject:
   - component: {fileID: 360701248}
   - component: {fileID: 360701247}
   - component: {fileID: 360701246}
+  - component: {fileID: 360701250}
+  - component: {fileID: 360701249}
   m_Layer: 0
   m_Name: Snake
   m_TagString: Untagged
@@ -450,6 +452,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.233}
+--- !u!70 &360701249
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360701245}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0060558333, y: 0.11472474}
+  m_Size: {x: 0.4229624, y: 0.731109}
+  m_Direction: 0
+--- !u!50 &360701250
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360701245}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &402748988
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,7 +679,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.42, y: -2.14, z: -10}
+  m_LocalPosition: {x: 12.44, y: -2.09, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5342,7 +5408,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28083c2302e71434ebbbe950608a613f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SnakeTrigger
+  maxHealth: 10
+  currentHealth: 0
   anim: {fileID: 360701247}
+  triggerTag: Player
+  currentState: Submerged
+  lifetime: 0
 --- !u!1 &851423822
 GameObject:
   m_ObjectHideFlags: 0
@@ -5828,7 +5899,7 @@ Transform:
   m_GameObject: {fileID: 1429609499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.55, y: -2.83, z: -1}
+  m_LocalPosition: {x: 5.78, y: -2.34, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5984,6 +6055,7 @@ GameObject:
   - component: {fileID: 1596876567}
   - component: {fileID: 1596876566}
   - component: {fileID: 1596876565}
+  - component: {fileID: 1596876572}
   m_Layer: 1
   m_Name: Baumber
   m_TagString: Untagged
@@ -6099,12 +6171,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596876564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fada7c595db6c5d4fa5f38316c0a8b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damageable
-  maxHealth: 10
+  maxHealth: 100
   currentHealth: 0
 --- !u!70 &1596876569
 CapsuleCollider2D:
@@ -6212,12 +6284,27 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.70752233, w: -0.70669097}
   m_LocalPosition: {x: 26.4, y: -2.06, z: -0.1}
-  m_LocalScale: {x: 8.613068, y: 7.508485, z: 1}
+  m_LocalScale: {x: 8.613068, y: 7.8839087, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1637558160}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.067}
+--- !u!114 &1596876572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596876564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e76a7a635e52ba458709f683f869902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageableEnemy
+  maxHealth: 10
+  currentHealth: 0
+  turret1: {fileID: 1637558159}
+  turret2: {fileID: 0}
 --- !u!1 &1637558159
 GameObject:
   m_ObjectHideFlags: 0
@@ -6232,7 +6319,7 @@ GameObject:
   - component: {fileID: 1637558162}
   - component: {fileID: 1637558161}
   m_Layer: 0
-  m_Name: Turret Object
+  m_Name: Turret ObjectB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6246,13 +6333,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637558159}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0, z: 0.7055209, w: -0.7086891}
-  m_LocalPosition: {x: -0.277, y: -0.056, z: -0.9}
-  m_LocalScale: {x: 0.07587143, y: 0.08083711, z: 0.6905225}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9999986, w: 0.0016523303}
+  m_LocalPosition: {x: 25.961306, y: 0.32633734, z: -1}
+  m_LocalScale: {x: 0.9586684, y: 1.1158756, z: 1.1066893}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 851423823}
-  m_Father: {fileID: 1596876571}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.811}
 --- !u!114 &1637558161
 MonoBehaviour:
@@ -6381,7 +6468,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9058824, g: 0.90196085, b: 0.8431373, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6620,8 +6707,7 @@ Transform:
   m_LocalPosition: {x: 11.55, y: -1.97, z: -0.1}
   m_LocalScale: {x: 8.542168, y: 7.508485, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 323193633}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.067}
 --- !u!70 &1811573286
@@ -6904,7 +6990,7 @@ SpriteRenderer:
   m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.8113208, g: 0.026788909, b: 0.026788909, a: 0.7921569}
+  m_Color: {r: 0.8113208, g: 0.026788909, b: 0.026788909, a: 0.7882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7085,16 +7171,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4761633872296264214, guid: 7c3fa02e1e7523d45878f6f592fee325, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761633872296264214, guid: 7c3fa02e1e7523d45878f6f592fee325, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761633872296264214, guid: 7c3fa02e1e7523d45878f6f592fee325, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.588
+      value: 19.01
       objectReference: {fileID: 0}
     - target: {fileID: 4761633872296264214, guid: 7c3fa02e1e7523d45878f6f592fee325, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.614
+      value: -2.37
       objectReference: {fileID: 0}
     - target: {fileID: 4761633872296264214, guid: 7c3fa02e1e7523d45878f6f592fee325, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4761633872296264214, guid: 7c3fa02e1e7523d45878f6f592fee325, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7271,7 +7365,9 @@ SceneRoots:
   - {fileID: 1380540026}
   - {fileID: 2052829439}
   - {fileID: 1811573285}
+  - {fileID: 323193633}
   - {fileID: 1596876571}
+  - {fileID: 1637558160}
   - {fileID: 7550978400954092615}
   - {fileID: 1609328190231581641}
   - {fileID: 343853177}

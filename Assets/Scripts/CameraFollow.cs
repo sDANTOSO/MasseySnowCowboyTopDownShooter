@@ -7,7 +7,8 @@ public class CameraFollow : MonoBehaviour
     public float yset=-2.02f; // The fixed y position for the camera
     void Update()
     {
-
+        print ("camera is updating");
+        
         if (target.position.x>11 && target.position.x<30) {
 
             Vector3 targetPosition = new Vector3(target.position.x, yset, transform.position.z); // Keep the camera's z position unchanged
@@ -16,8 +17,11 @@ public class CameraFollow : MonoBehaviour
 
 
         }
-
-       
-
+            else if (target.position.x>30 && target.position.x<50) {
+    
+                Vector3 targetPosition = new Vector3(target.position.x, yset, transform.position.z); // Keep the camera's z position unchanged
+    
+                transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime); // Smoothly move the camera towards the target position
     }
+}
 }

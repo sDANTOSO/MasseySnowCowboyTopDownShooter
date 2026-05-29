@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
         damageable.TakeDamage(damage);
         }
 
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
     // Update is called once per frame

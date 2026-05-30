@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     private Vector3 respawnPosition;
-    public float maxHealth = 100f;
+    public float maxHealth = 20f;
     public float currentHealth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

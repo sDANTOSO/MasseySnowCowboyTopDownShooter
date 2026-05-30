@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TurretEnemy : MonoBehaviour
 {
-       public Transform player;
+    public Transform player;
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float detectionRange = 8f;

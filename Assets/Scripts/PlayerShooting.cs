@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerShooting : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-   public GameObject projectilePrefab;
+     public GameObject projectilePrefab;
      //public Transform firePoint;
-    public Transform firePointL;
+     public Transform firePointL;
      public Transform firePointR;
 
      void Update()

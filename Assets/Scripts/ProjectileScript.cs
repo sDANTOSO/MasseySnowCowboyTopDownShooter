@@ -15,25 +15,8 @@ public class Projectile : MonoBehaviour
         moveDirection = direction;
     }
 
-    
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        print("Collided with " + collision.gameObject.name);
-        Damageable damageable = collision.gameObject.GetComponent<Damageable>();
-
-         if (damageable != null)
-        {
-        damageable.TakeDamage(damage);
-        }
-
-        //Destroy(gameObject);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {   
-        
+     // Update is called once per frame
+    void Update(){   
         
         //string firstDigit = rightVec.x.ToString("F2").Substring(0, 1);
         //Vector3 rightVec = transform.right;
@@ -41,11 +24,42 @@ public class Projectile : MonoBehaviour
         //{
         //    rightVec.x = 1f;
         //}
-        
         //transform.right = rightVec;
 
-        
         transform.position += moveDirection * speed * Time.deltaTime;
-        print(transform.right+""+transform.rotation);
+        //print(transform.right+""+transform.rotation);
     }
-}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Enemy")){
+        
+        print("it survived");
+        DamageableEnemy damageableenemy = collision.gameObject.GetComponent<DamageableEnemy>();
+
+         if (damageableenemy != null)
+        {
+             print("Dealing damage to " + collision.gameObject.name);
+            damageableenemy.TakeDamage(damage);
+        }
+        Destroy(gameObject);
+        }else{
+        if (collision.collider.CompareTag("Snakekillable")){
+         print("Collided with " + collision.gameObject.name);
+        SnakeDamage snakeDamage = collision.gameObject.GetComponent<SnakeDamage>();
+
+         if (snakeDamage != null)
+        {
+             print("Dealing damage to " + collision.gameObject.name);
+            snakeDamage.TakeDamage(damage);
+        }
+
+        Destroy(gameObject);
+        }
+            else{
+                Destroy(gameObject);
+        }
+
+   
+    }
+    }}

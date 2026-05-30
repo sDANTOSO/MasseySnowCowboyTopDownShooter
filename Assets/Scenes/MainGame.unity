@@ -207,8 +207,8 @@ Transform:
   m_GameObject: {fileID: 323193631}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.9999986, w: 0.0016523303}
-  m_LocalPosition: {x: 9.71, y: 0.2599995, z: -1}
-  m_LocalScale: {x: 1.1549773, y: 1.3999722, z: 1.3999726}
+  m_LocalPosition: {x: 9.7, y: 0.25, z: -1}
+  m_LocalScale: {x: 0.8897353, y: 1.0784667, z: 1.078467}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 997420663}
@@ -349,9 +349,11 @@ GameObject:
   - component: {fileID: 360701246}
   - component: {fileID: 360701250}
   - component: {fileID: 360701249}
+  - component: {fileID: 360701251}
+  - component: {fileID: 360701252}
   m_Layer: 0
   m_Name: Snake
-  m_TagString: Untagged
+  m_TagString: Snakekillable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,6 +518,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &360701251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360701245}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e76a7a635e52ba458709f683f869902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageableEnemy
+  maxHealth: 100
+  currentHealth: 0
+  turret1: {fileID: 0}
+  turret2: {fileID: 0}
+--- !u!114 &360701252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360701245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c0184d1d4c54241b4e1e03eb28b473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SnakeDamage
+  Snakeanim: {fileID: 360701247}
+  maxHealth: 50
+  currentHealth: 0
 --- !u!1 &402748988
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +712,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.44, y: -2.09, z: -10}
+  m_LocalPosition: {x: 12.32, y: -2.03, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5328,6 +5361,7 @@ GameObject:
   - component: {fileID: 641894037}
   - component: {fileID: 641894036}
   - component: {fileID: 641894038}
+  - component: {fileID: 641894039}
   m_Layer: 0
   m_Name: SnakeTrigger
   m_TagString: Untagged
@@ -5351,7 +5385,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -5389,9 +5423,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641894035}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.2, y: -3.14, z: 0}
-  m_LocalScale: {x: 7.104387, y: 3.646686, z: 1.7434078}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 36.27, y: -3.08, z: 0}
+  m_LocalScale: {x: 7.1043873, y: 3.6466858, z: 1.7434078}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5414,6 +5448,43 @@ MonoBehaviour:
   triggerTag: Player
   currentState: Submerged
   lifetime: 0
+--- !u!70 &641894039
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641894035}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.3982348, y: 0.038408797}
+  m_Size: {x: 1.1057853, y: 0.6425182}
+  m_Direction: 1
 --- !u!1 &851423822
 GameObject:
   m_ObjectHideFlags: 0
@@ -5899,7 +5970,7 @@ Transform:
   m_GameObject: {fileID: 1429609499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.78, y: -2.34, z: -1}
+  m_LocalPosition: {x: 30.79, y: -2.99, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5965,7 +6036,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10
+  m_Mass: 1000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -6058,7 +6129,7 @@ GameObject:
   - component: {fileID: 1596876572}
   m_Layer: 1
   m_Name: Baumber
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6629,9 +6700,10 @@ GameObject:
   - component: {fileID: 1811573288}
   - component: {fileID: 1811573290}
   - component: {fileID: 1811573289}
+  - component: {fileID: 1811573291}
   m_Layer: 1
   m_Name: Rockmonster_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6754,7 +6826,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811573283}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fada7c595db6c5d4fa5f38316c0a8b50, type: 3}
   m_Name: 
@@ -6862,6 +6934,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0.3838067, y: 0.036465112}
   m_Size: {x: 0.70189935, y: 0.42070568}
   m_Direction: 1
+--- !u!114 &1811573291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811573283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e76a7a635e52ba458709f683f869902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageableEnemy
+  maxHealth: 100
+  currentHealth: 0
+  turret1: {fileID: 323193631}
+  turret2: {fileID: 0}
 --- !u!1 &1956866885
 GameObject:
   m_ObjectHideFlags: 0

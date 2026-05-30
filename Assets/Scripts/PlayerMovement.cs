@@ -36,13 +36,14 @@ public class PlayerMovement : MonoBehaviour
     float clampedY = Mathf.Clamp(transform.position.y, -7f, 2.8f);
 
     
-    print(moveDirection);
+    //print(moveDirection);
     transform.position = new Vector3(clampedX, clampedY, transform.position.z);
 
      //Vector3 transformposition =(Mathf.Clamp(transform.position.x, 0, 41), Mathf.Clamp(transform.position.y, -7, 3), 0.0f); 
 
 
-    moveDirection = moveDirection.normalized; 
+     moveDirection = moveDirection.normalized; 
+     //print(moveDirection);
 
      transform.position += moveDirection * moveSpeed * Time.deltaTime;
     
@@ -55,6 +56,15 @@ public class PlayerMovement : MonoBehaviour
         else if (moveDirection.x < 0)
         {
             spriteRenderer.flipX = true; // Face left
+        }
+
+        if (moveDirection.y > 0)
+        {
+            spriteRenderer.flipY = false; // Face right
+        }
+        else if (moveDirection.y < 0)
+        {
+            spriteRenderer.flipY = true; // Face left
         }
     }
 }

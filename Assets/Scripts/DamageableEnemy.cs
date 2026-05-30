@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DamageableEnemy : MonoBehaviour
 {
-    public float maxHealth = 10f;
+    public float maxHealth = 100;
     public float currentHealth;
     public GameObject turret1;
     public GameObject turret2;
@@ -10,15 +10,18 @@ public class DamageableEnemy : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = 30.0f;
     }
 
     public void TakeDamage(float damageAmount)
     {
+        print(currentHealth);
         currentHealth -= damageAmount;
 
+        print("new"+ currentHealth);
         if (currentHealth <= 0f)
         {
+            print("Enemy died");
             Die();
         }
     }

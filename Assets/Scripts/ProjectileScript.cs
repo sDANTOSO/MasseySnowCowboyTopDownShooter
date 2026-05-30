@@ -32,7 +32,9 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Enemy")){
+        if (collision.collider.CompareTag("Enemy")|| collision.collider.CompareTag("Laserbeam"))
+        {
+         print("Collided with " + collision.gameObject.name);
         
         print("it survived");
         DamageableEnemy damageableenemy = collision.gameObject.GetComponent<DamageableEnemy>();

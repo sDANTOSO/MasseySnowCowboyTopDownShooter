@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 174334551744841047, guid: fe797e435cda4464f9650e0aad57eb65, type: 3}
+      propertyPath: m_TagString
+      value: Laserbeam
+      objectReference: {fileID: 0}
     - target: {fileID: 2164599777809289066, guid: fe797e435cda4464f9650e0aad57eb65, type: 3}
       propertyPath: m_Mass
       value: 0.25
@@ -71,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 174334551744841047, guid: fe797e435cda4464f9650e0aad57eb65, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2711604986983856358}
+    - targetCorrespondingSourceObject: {fileID: 174334551744841047, guid: fe797e435cda4464f9650e0aad57eb65, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136075371260244767}
   m_SourcePrefab: {fileID: 100100000, guid: fe797e435cda4464f9650e0aad57eb65, type: 3}
 --- !u!1 &2585598798429092927 stripped
 GameObject:
@@ -92,3 +99,19 @@ MonoBehaviour:
   speed: 8
   damage: 1
   lifetime: 8
+--- !u!114 &2136075371260244767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585598798429092927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e76a7a635e52ba458709f683f869902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageableEnemy
+  maxHealth: 1
+  currentHealth: 0
+  turret1: {fileID: 0}
+  turret2: {fileID: 0}

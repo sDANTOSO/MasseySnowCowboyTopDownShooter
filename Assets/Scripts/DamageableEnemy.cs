@@ -10,7 +10,13 @@ public class DamageableEnemy : MonoBehaviour
 
     void Start()
     {
-        currentHealth = 30.0f;
+        if (gameObject.CompareTag("Enemy"))
+        {
+            currentHealth = 30.0f;
+        }else if (gameObject.CompareTag("Laserbeam"))
+        {
+            currentHealth = 1f;
+        }
     }
 
     public void TakeDamage(float damageAmount)

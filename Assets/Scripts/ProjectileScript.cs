@@ -42,6 +42,7 @@ public class Projectile : MonoBehaviour
          if (damageableenemy != null)
         {
              print("Dealing damage to " + collision.gameObject.name);
+            PointManager.Instance.AddPoints(4);
             damageableenemy.TakeDamage(damage);
         }
         Destroy(gameObject);
@@ -53,6 +54,7 @@ public class Projectile : MonoBehaviour
          if (snakeDamage != null)
         {
              print("Dealing damage to " + collision.gameObject.name);
+             PointManager.Instance.AddPoints(6);
             snakeDamage.TakeDamage(damage);
         }
 

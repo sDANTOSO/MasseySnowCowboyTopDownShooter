@@ -35,6 +35,7 @@ public class DamageableEnemy : MonoBehaviour
     void Die()
     {
         Destroy(turret1);
+        Destroy(turret2);
         Destroy(gameObject);
     }
 

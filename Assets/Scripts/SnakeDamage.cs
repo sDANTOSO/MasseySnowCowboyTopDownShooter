@@ -5,12 +5,17 @@ public class SnakeDamage : MonoBehaviour
     public Animator Snakeanim;
     public float maxHealth = 50.0f;
     public float currentHealth;
+     public static SnakeDamage Instance;
 
+    void Awake()
+    {
+        Instance = this;
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentHealth = 50.0f;
+        currentHealth = 20.0f;
     }
 
 

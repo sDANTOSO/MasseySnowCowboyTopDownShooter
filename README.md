@@ -14,7 +14,7 @@ Heres a one page document explaining how I made my game :
 https://docs.google.com/document/d/13_BNucopCzuLIocq51rffvjzBsuOYFt5cVnqvE78ygs/edit?tab=t.0
 
 ## How to play my game 
-<img src="Images/gameplay.gif" alt="Gameplay" width="1200" height="700">
+<img src="Images/Gameplay.gif" alt="Gameplay" width="1200" height="700">
 
 My game can be played on Windows by running the application in BuiltGameV7
 

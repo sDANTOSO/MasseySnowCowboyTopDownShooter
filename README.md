@@ -22,6 +22,8 @@ My game can also be played on itch (doesnt quite look as good) here:
 
 https://starkbrix.itch.io/cozy-snow-space-cowboy
 
+The controls are WASD to move and click to shoot
+You can destroy the projectiles and the enemies, getting a different amount of points for each.
 ## Contribution
 Other people can contribute by letting me know what they like to see or using the project files to expand the world with more mechanics, animals, or biomes.
 
